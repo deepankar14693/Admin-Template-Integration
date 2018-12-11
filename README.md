@@ -1,3 +1,25 @@
+GUIDELINES: 
+
+1. Create an Angular project.
+
+2. Download AdminLTE 2.4 template.
+
+3. After un-zipping the folder copy "bower_components,dist,plugins" folder and paste these folders in your anglar project's assets folder.
+
+4. Copy the styles and scripts links from index2.html file present in AdminLTE2.4 folder and paste thes links in index.html of your project.
+
+5. Change the path to assets/..... after copying links.
+
+6. Create components header,footer,menu and settings.
+
+7. Copy html source of header,footer,menu and settings from index2.html and paste it in each component.
+
+8. Call each component into app.component.html
+
+9. Few small changes are also present so at the end please re-check index.html and app.component.html.
+
+
+
 # Admin
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
